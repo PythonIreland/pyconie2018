@@ -45,12 +45,9 @@ navigationLinks:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
- - {link: "http://schedule.pycon18.python.ie/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
-
-
-# - {permalink: "/schedule/", text: "Schedule"}
 # - {permalink: "/team/", text: "Team"}
 # - {link: "https://pyconie.herokuapp.com/conferences/pycon-ireland-2018/call-for-proposals", text: "Become a speaker"}
 #bottomNavigationLinks:
@@ -68,7 +65,7 @@ heroButtons:
  - {permalink: "/#partners", text: "Sponsors"}
  - {permalink: "/#tickets", text: "Tickets"}
  - {permalink: "/#keynote-speakers", text: "Keynotes"}
- - {link: "http://schedule.pycon18.python.ie/", text: "Schedule"}
+ - {permalink: "/schedule/", text: "Schedule"}
  - {permalink: "/#quiz", text: "Entertainment"}
  - {permalink: "/#location-map", text: "Location"}
 
