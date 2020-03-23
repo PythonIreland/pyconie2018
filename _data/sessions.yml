@@ -1,59 +1,671 @@
--
-  id: 307
-  title: "Coffee Break"
-  place: "Hall"
-  service: true
-  description: "The best time to talk with speakers and attendees"
--
-  id: 503
-  title: "Lunch Break"
-  place: "Dining room"
-  service: true
--
-  id: 001
-  title: "Material design: Visual style and imagery"
-  description: "This session will reveal the invisible structures behind the material design system. Designers will show how to use the new color systems, typographic strategies, and the underlying grids that hold it together. They will show how imagery and the new framework material rendering can make apps more interesting and communicate more quickly."
+- id: 1
+  title: Introduction to Pandas
+  description: This workshop is an introduction to the popular data science library
+    Pandas. The workshop will be using a Jupyter notebook to work through a case study
+    and find answers to questions. The workshop will be using Python3. If you don't
+    have python installed, the recommended way is to use Anaconda as it has everything
+    pre-installed. It is expected that the attendees would already have some experience
+    working with Python and is looking to expand their knowledge in the area of data
+    analysis. The source code used for the workshop would be available on Github.
   subtype: workshop
-  speakers: [3, 6]
-  language: en
-  complexity: "Intermediate"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 002
-  title: "Building Cloud-powered wearable Apps"
-  description: "I will speak and show how to:<br>- Respond to touch events in your views with touch feedback animations.<br>- Hide and show views with reveal effect animations.<br>- Switch between activities with custom activity transition animations.<br>- Create more natural animations with curved motion.<br>- Animate changes in one or more view properties with view state change animations.<br>- Create icon morphing transition"
+  speakers:
+  - 1
+- id: 2
+  title: Powering up your Python web applications
+  description: "App structure best practices:\nBenefits of using the Flask application\
+    \ factory.\nCreating a (Flask-Script) migrate.py to handle database connections.\n\
+    Easily move between production and development environments and database connections.\n\
+    Separating your app into Blueprints, to create webpage, API and logged in routes.\n\
+    \nAdding asynchronous tasks:\nFocusing on a real world application use case, using\
+    \ Redis as a message broker and Celery as an asynchronous task queue.\nSetting\
+    \ up your server connection and creating asynchronous and scheduled tasks.\n\n\
+    Adding in a JavaScript frontend:\nAdding a React JavaScript front end.\nCreating\
+    \ API endpoints that return JSON data.\nHow to anchor our server rendered content\
+    \ to our React components and fetching data from out API.\nPro's and cons of using\
+    \ react.\nUsing jQuery as an alternative to React."
   subtype: presentation
-  speakers: [4, 5]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 003
-  title: "Android L Animation"
-  description: "More than ever before, developing for global audience is a necessity than a luxury in today's world. Are you ready ... where to start? what does it entail? how do I do it? how to promote in local markets? This talk will address above questions for android, chrome and web developers. In our journey of the where, what and how, we will take an in-depth look at various internationalization and localization tools & strategies available to you."
+  speakers:
+  - 2
+- id: 3
+  title: 'Natural Language Processing: An Application for Public Policy'
+  description: "In this session, I will apply NLP methods to explore press releases\
+    \ by governments in order to understand public policy decisions. This talk will\
+    \ be based on my PhD research in applying topic models to Federal Reserve communication\
+    \ and analyzing how important themes influence financial markets.\n\nI will walk\
+    \ through a Jupyter notebook that covers the main steps of text preprocessing,\
+    \ feature extraction, topic modeling (LDA or NMF), visualizing topics, and possibly\
+    \ regression analysis to assess the impact of the information financial markets.\
+    \ It will include mentions to packages like gensim, Scikit Learn, Word Cloud,\
+    \ and possibly statsmodels.\n\nThe material for the session can be found in a\
+    \ public Github repository:\nhttps://github.com/ancilcrayton/nlp_public_policy\n\
+    \nI hope that this session will inspire participants to apply their Python and\
+    \ data science skills to interesting problems lurking in public policy."
+  subtype: workshop
+  speakers:
+  - 3
+- id: 4
+  title: An Idiots Guide to (Open) Data Science
+  description: Setup, configuration, and use of Python Data Science tools, highlighting
+    some of the technical pitfalls / statistical failings people often come across
+    in the cleaning and analysis of data. Focus on using multiple datasets from OpenDataNI
+    to generate insights into economic policy and educational attainment in Northern
+    Ireland.
   subtype: presentation
-  speakers: [4]
-  language: en
-  complexity: "Intermediate" 
-  presentation: "https://speakerdeck.com/gdglviv/dmytro-danylyk-android-l-animation"
--
-  id: 004
-  title: "Polymer: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [6]
-  language: uk
-  complexity: "Beginner"
-  presentation: "https://speakerdeck.com/gdglviv/mateusz-herych-guava-beyond-collections"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
--
-  id: 005
-  title: "Test: Interacting with Google Services using nothing but HTML"
-  description: "Google has 1M APIs and services. Every API is different! Learn how you can interact with Google services without writing code! Designing your UI so it works across multiple screen sizes is no longer a nice to have, it is *the* way to build for the web. Using Polymer, we'll cover how to create robust, responsive elements that work across all platforms."
-  subtype: keynote
-  speakers: [7]
-  language: en
-  complexity: "Expert"
-  presentation: "https://speakerdeck.com/gdglviv/michal-tajchert-wearables-views"
-  video: "//www.youtube.com/embed/v3SCiUqI1yQ"
+  speakers:
+  - 4
+- id: 5
+  title: 'Programming by poking: some experiences in teaching with Python'
+  description: "Part of the title originates from a quote by computer scientist Gerry\
+    \ Sussman on the new MIT introduction to programming course, which (in Sussman's\
+    \ view) focused more on building practical applications at the expense of many\
+    \ computer science fundamentals.\n\nThe talk will look at some of the advantages\
+    \ and pitfalls of the increasing trend of using Python as an introductory programming\
+    \ language: partially through some personal anecdotes and partially through friends\
+    \ and colleagues' experiences. It will also look at the increasing divergence\
+    \ between those involved in software development and those who, educated through\
+    \ Python, are based in other domains as their primary job but are using their\
+    \ new Python-based knowledge to assist their daily work (in finance, insurance\
+    \ etc).\n\nI have rated this as Intermediate as some knowledge of Python will\
+    \ be needed as well as understanding some Computer Science basics (i.e arrays\
+    \ vs lists). Some side by side comparisons will take place using Python against\
+    \ Scheme (aspects of fundamental programming and comparing a 'traditional' computer\
+    \ science course re-written in Python), Lua (another contender for when I taught\
+    \ some basic programming) and C (comparison to another popular introductory language\
+    \ and low level details)."
+  subtype: presentation
+  speakers:
+  - 5
+- id: 6
+  title: Can we talk? Machine Translation with Keras.
+  description: In this talk I will describe and present ideas for a machine translation
+    prototype implemented in Keras. I will cover Neural Machine Translation, which
+    is an approach to machine translation that uses a large neural network. It departs
+    from phrase-based statistical approaches that use separately engineered subcomponents.
+    E.g. Google uses Google Neural Machine Translation (GNMT) in preference to its
+    previous statistical methods. NMT has highly promising performance for large training
+    data. The common principle is encoding the meaning of input into concept space
+    and performing translation based on encoding which leads to deeper understanding
+    and learning of translation rules, for better translation than SMT. The problem
+    is the tendency towards overfitting to frequent observations and overlooking special
+    cases. With the cause that the translational function is shared, so high- and
+    low-frequency pairs impact each other by adapting shared parameters. Smoothness
+    of translation function makes infrequent pairs seem like noise.
+  subtype: presentation
+  speakers:
+  - 6
+- id: 7
+  title: Finite State Machines in Python; Or How I learned to stop worrying and love
+    the automaton
+  description: "Finite state machines are usually the thing of nightmares for CS undergrads.\
+    \ The first question any CS student asks after seeing them is \"But where will\
+    \ I ever use this?\". The answer surprised us too: You can use FSM's almost everywhere.\n\
+    \nIn this talk we will do a recap on Finite State Machines, and show you some\
+    \ examples of where we use them at Telnyx. \nWe will also show the transactions\
+    \ library and how we use this library to process FSMs in a distributed manner.\n\
+    And we end on a small demo of how you can use FSM machines in a real world application."
+  subtype: presentation
+  speakers:
+  - 7
+- id: 8
+  title: 'Launch Jupyter to the Cloud: an example of using Docker and Terraform'
+  description: "Talk Abstract\n==========\nThere are lots of reasons using a cloud\
+    \ service is favorable, but how to make sure consistency between development and\
+    \ deployment? With Docker and Terraform, we can create the same environment on\
+    \ cloud easily. For example, we will deploy a Jupyter notebook on Google Cloud\
+    \ Platform using both tools.\n\nTalk Description\n============\nIn this talk,\
+    \ we will use a task: hiring a GPU on Google Cloud Platform to train neural network,\
+    \ as an example to show how an application can be deployed on a cloud platform\
+    \ with Docker and Terraform. The goal is to have Jupyter Notebook running in an\
+    \ environment with Tensorflow (GPU version) and other libraries installed on a\
+    \ Google Compute Engine.\n\nFirst we will briefly explain what is Docker and what\
+    \ is Terraform for audiences who has no experience in either or both of them.\
+    \ Some basic concepts of both tools will also be covered. After that, we will\
+    \ walk-through each steps of the work flow, which includes designing and building\
+    \ a Docker image, setting up a pipeline on Github and Docker Hub, writing the\
+    \ Terrafrom code and the start up script, launching an instance. From that, audiences\
+    \ will have an idea of how both tools can be use together to deploy an app onto\
+    \ a cloud platform and what advantages each tool can bring in the process.\n\n\
+    This talk is for people with no experience in application deployment on cloud\
+    \ service but would benefit form computational reproducibility and cloud service,\
+    \ potentially data scientists/ analysts or tech practitioners who didn\u2019t\
+    \ have a software developing background. We will use an example that is simple\
+    \ but useful in data science to demonstrate basic usage of Docker and Terraform\
+    \ which would be beneficial to beginners who would like to simplify their work\
+    \ flow with those tools."
+  subtype: presentation
+  speakers:
+  - 8
+- id: 9
+  title: Career reboot workshop
+  description: Career reboot workshop
+  subtype: workshop
+  speakers:
+  - 9
+- id: 10
+  title: High Performance Data Processing in Python
+  description: "numpy and numba are popular Python libraries for processing large\
+    \ quantities of data. When running complex transformations on large datasets,\
+    \ many developers fall into common pitfalls that kill the performance of these\
+    \ libraries.\n\nThis talk explains how numpy/numba work under the hood and how\
+    \ they use vectorisation to process large amounts of data extremely quickly. We\
+    \ use these tools to reduce the processing time of a dataset from 3 years to 12\
+    \ hours, even when the code is run on a single Macbook Pro."
+  subtype: presentation
+  speakers:
+  - 10
+- id: 11
+  title: 'Keynote: Python in Education'
+  description: Brett Becker (UCD) and Keith Quille (IT Tallaght) will jointly discuss
+    the current state of Python in education, internationally and nationally. Brett
+    will focus on Python education on an international level, with a focus on introductory
+    programming courses (CS1), for both uptake trends and research findings. This
+    then sets the scene for Keith to discuss the current state of Python in Irish
+    education, with a specific focus on the new Leaving Certificate Computer Science
+    Subject, which has just started its phase one. Details of the subject and its
+    content, in particular Python will be presented. Finally an overview of a large
+    scale initiative is described, where in the 2017-2018 academic year, the team
+    traveled to 95 schools and delivered computing camps to just under 3000 students.
+    This was run in parallel to teacher continuous professional development (delivered
+    to 500 teachers), where the Python played a significant role. Interesting anecdotal
+    findings are presented, and the plan for the initiative for the 2018-2019 academic
+    year is described, where the team hopes to reach almost 6000 students.
+  subtype: presentation
+  speakers:
+  - 11
+  - 20
+- id: 12
+  title: Python as a tool for research ... with some thoughts on education
+  description: Dr Suzanne Little is a funded investigator with the Insight Centre
+    for Data Analytics and assistant professor in the school of computing at Dublin
+    City University. She's been using python for various research projects in her
+    area of multimedia content analysis for almost 20 years and somewhat accidentally
+    arrived at the point of teaching python and, in particular, Jupyter Notebooks
+    for data analytics and visualisation. This talk will describe how python is used
+    in the background of EU projects for driver assistance systems, the Smart Stadium
+    for Smarter Living initiative with Croke Park and for the latest deep learning
+    for computer vision research. Suzanne will also discuss some experiences in using
+    python for public tech courses, undergraduate programmes and data analytics specialisations.
+  subtype: presentation
+  speakers:
+  - 12
+- id: 13
+  title: Adding the three pillars of Observibility to your Python app
+  description: "This intermediate level talk will focus on introducing the three pillars\
+    \ of Observibility (1: structured logging 2: metrics 3: tracing) to your Python\
+    \ application. The learning objective is to introduce existing Python developers\
+    \ to each area as well as best practices (RED/four golden signals) and the specific\
+    \ Python libraries they can use in their applications. It aim is that by the end\
+    \ people will know how to add specific tools plus related best practices to their\
+    \ existing applications to provide greater insight into their systems. The closest\
+    \ example is that this talk will pragmatically present the content of \"Distributed\
+    \ Systems Observibility\" O'Reilly into concrete actions and libraries to use.\
+    \ Some anecdotes and examples of how these have gone for the speaker in his production\
+    \ systems will also be noted."
+  subtype: presentation
+  speakers:
+  - 14
+- id: 14
+  title: Building a Fine Grained Image Classification System for Nature Images
+  description: "At Fieldguide we are developing a digital field guide for all species\
+    \ of flora and fauna across the planet. We are using image recognition technology\
+    \ to enable species identification and to help with the curation of this massive\
+    \ catalogue.\n\nIn this talk I will describe how we are building an image recognition\
+    \ system with the aim of identifying all known species in the natural world. The\
+    \ system has gone through a number of iterations at this point using a variety\
+    \ of computer vision and machine learning techniques, from nearest neighbour search\
+    \ to classification with fine tuned deep convolutional networks. All of this has\
+    \ been implemented in Python using scikit-learn, Numpy, Caffe and Tensorflow.\n\
+    \nAside from the obvious machine learning challenges in designing and training\
+    \ such a system we faced numerous technical challenges while implementing and\
+    \ scaling this system in a cost effective manner. I will discuss these challenges,\
+    \ our solutions and the remaining open problems.\n\nWhile this talk will be relatively\
+    \ high level with few code examples and no math (but lots moths), it will be of\
+    \ most interest to those who have some knowledge of machine learning concepts."
+  subtype: presentation
+  speakers:
+  - 16
+- id: 15
+  title: Introduction to Spark Streaming
+  description: "Talk Title:\n\nIntroduction to Spark Streaming\n\nIn this workshop\
+    \ assistants will learn how to process streams of data in\nreal time by using\
+    \ spark and python. A series of coding exercises will\nguide audience across most\
+    \ relevant Spark DStreams features. Assistants\nwill also learn how to integrate\
+    \ spark streams with other spark extensions.\n\nKey Features\n\nConsume data streams\
+    \ in real time from TCP Servers.\n\nApply data processing techniques such as map\
+    \ reduce to live streams of data.\n\nIntegrate data stream processing with other\
+    \ Spark extensions.\n\n\nDescription\n\nProcessing big data on real time is a\
+    \ challenging endeavor for different\nreasons such as scalability difficulties,\
+    \ consistency of the information,\ntolerance to faults, among others.\n\nApache\
+    \ Spark provides a collection of APIs that can be used to perform\ngeneral-purpose\
+    \ computation in clustered environments.\n\nThe aim of this workshop is to bring\
+    \ an introduction to processing of \ndata in real time by using spark.\n\nThe\
+    \ proposed workshop contains 3 sections, each one of 30 minutes. The\nremaining\
+    \ time will be used to answer questions and help assistants with\nthe practical\
+    \ exercises.\n\nThe first section of the workshop provides an introduction to\
+    \ most\nrelevant features of Spark, including Resilient Distributed Datasets\n\
+    (RDDs), SQL and Dataframes.\n\nThe second section covers how to use Spark\nStreaming\
+    \ API to consume data streams on real time from TCP sockets.\n\nThe third section\
+    \ shows how to integrate Spark Streaming with the machine\nlearning Spark extension.\n\
+    \n\nAudience\n\nThis workshop is aimed to software engineers, architects and IT\
+    \ professionals\nin general with interest in distributed systems and big data\
+    \ analytics.\nNo previous knowledge or experience with spark is required but it\
+    \ will be\nhelpful. Basic python knowledge is expected.\n\nBiography\n\nManuel\
+    \ Ignacio Franco Galeano, computer scientist from Colombia.\nHe works for Fender\
+    \ musical instruments as lead engineer in Dublin, Ireland.\nHe holds a MSC in\
+    \ computer science from University College Dublin UCD.\nHis areas of interest\
+    \ and research are music information retrieval,\ndata analytics, distributed systems,\
+    \ blockchain technologies among others."
+  subtype: workshop
+  speakers:
+  - 17
+- id: 16
+  title: Securing your APIs with Django oAuth Toolkit
+  description: To begin, this talk will briefly run through the oAuth2 RFC and describe
+    how each of the roles maps to a functionality in a modern microservices architecture.
+    It will describe the middleware available through the Django oAuth Toolkit and
+    where that needs to be brought in to implement an oAuth-compliant solution. We'll
+    look at the different endpoints the oAuth toolkit exposes, what we need them for
+    and how they fit into the authentication flow. I'll also discuss what to do if
+    your use case is not exactly as described in the (limited) documentation available,
+    as well as the extra steps needed to use the toolkit for your own standalone oAuth
+    server. At the end of this talk, attendees should feel confident in utilising
+    the Django oAuth Toolkit as an extra layer of authentication for their own web
+    APIs.
+  subtype: presentation
+  speakers:
+  - 18
+- id: 17
+  title: Testing python security
+  description: "Python is a language that in a easy way allows to scale up from starter\
+    \ projects to complex applications for data processing and serving dynamic web\
+    \ pages. But as you increase complexity in your applications, it can be easy to\
+    \ introduce potential problems and vulnerabilities.\n\nIn this talk, I will highlight\
+    \ the biggest problems we can find in python functions, how to use then in a secure\
+    \ way and tools and services that help you identify vulnerabilities in the python\
+    \ source code.\n\nThese could be the main talking points:\n\n-Introduction to\
+    \ secure programming in python.\n\n-Introduce dangerous functions for code inyection\
+    \ and how we can solve this issues from a security point of view.\n\n-Common attack\
+    \ vectors on Python applications like Remote Command Execution and SQL injection\n\
+    \n-Best practices for avoid execution of malicious commands\n\n-Tools that help\
+    \ us to protect and obfuscate our source code"
+  subtype: presentation
+  speakers:
+  - 19
+- id: 18
+  title: Recruiting session
+  description: Panel discussion with sponsors looking to hire. Only verified sponsors
+    can be on the panel.
+  subtype: presentation
+  speakers:
+  - 21
+- id: 19
+  title: TDD in Python with pytest
+  description: "Test-Driven Development is a methodology that can greatly improve\
+    \ the quality of your software. I strongly believe that developing software without\
+    \ following as much as possible a test-driven approach leads to massive delays\
+    \ and greater issues when requirements change (always, that is). In this workshop\
+    \ we will develop a very simple Python project following TDD with the help of\
+    \ the pytest framework. We will work together, and no previous knowledge of testing\
+    \ or the testing framework is required. A minimum knowledge of Python is required,\
+    \ but the project will be very simple, so that we can focus on learning the testing\
+    \ methodology.\n\nPresented at London PyLadies Meetup and PyCon UK 2018.\n\nAttendees,\
+    \ please clone the repository at https://github.com/lgiordani/pytest_workshop\
+    \ and follow the instructions. Please do it before the workshop."
+  subtype: workshop
+  speakers:
+  - 22
+- id: 20
+  title: Dive into object-oriented Python
+  description: "Each language has its own object-oriented implementation, that can\
+    \ differ in subtle or unexpected ways from others.\nNewcomers to Python - whether\
+    \ they are coming from another language, or learning programming through Python\
+    \ for the first time - sometimes encounter some \u2018strange\u2019 issues, but\
+    \ understanding Python\u2019s OOP implementation will help make many of them seem\
+    \ a lot less strange.\nThis workshop will introduce beginners to Python\u2019\
+    s beautiful but sometimes peculiar implementation of OOP concepts. It\u2019s ideal\
+    \ for people who have a bit of Python knowledge and experience, and need to move\
+    \ from first steps to a deeper understanding.\n\nThe workshop has been presented\
+    \ at many Python conferences, including PyCon Ireland in past years and has always\
+    \ been full packed of attendees. This year I completely reworked the slides to\
+    \ better explain some of the points where attendees struggled in the past."
+  subtype: workshop
+  speakers:
+  - 22
+- id: 21
+  title: Patient Data Made Real
+  description: "In this talk we will present how python is used to develop a machine\
+    \ learning based 3D medical imaging processing pipeline in axial3D. We will provide\
+    \ a demo taking relevant scientific packages and develop a simple algorithm to\
+    \ detect bony anatomy. A 3D printable model will be produced at the end of the\
+    \ demo. We will also show how we use existing 3D mesh python packages to adjust\
+    \ properties of the object for visualisation in screen and mixed reality platforms.\n\
+    \nThe healthcare sector produces vast quantities of three dimensional images for\
+    \ the diagnosis and treatment of a large variety of medical conditions. Traditionally,\
+    \ the 3D images are reviewed by a highly qualified healthcare professional such\
+    \ as a radiologist or surgeon. As a result, the diagnosis and treatment of patient\
+    \ is time consuming, expensive and not scalable; moreover, this approach has limited\
+    \ efficacy as the medical doctor may not be able to obtain a general understanding\
+    \ of the anatomic three dimensional structure (e.g the shape and size of a tumor,\
+    \ the position of each bony fragment in a complex fracture, the location of an\
+    \ aneurysm together with surrounding vasculature, etc).\n\nThe talk will focus\
+    \ on the advanced image processing techniques and Deep Learning approaches that\
+    \ are in active development developed both within academia and the private sector.\
+    \ These approaches aim to achieve a faster and better understanding of medical\
+    \ scans. They allow healthcare systems to provide a cheaper, faster and more effective\
+    \ medical service to patients. The results of the image analysis can then be rendered\
+    \ to the medical staff using a Virtual Reality, or an Augmented Reality system.\
+    \ 3D prints can also be employed to convey a very tangible experience as well\
+    \ as allow the medical staff to prepare for the operation by setting up a mock\
+    \ procedure on the 3D prints."
+  subtype: presentation
+  speakers:
+  - 23
+- id: 22
+  title: Publish a (Perfect) Python Package on PyPI
+  description: "Always wanted to publish a package on PyPI, but didn't know where\
+    \ to start?\nThis talk is for you! Starting with nothing, we'll build a package\
+    \ and publish it on PyPI using current best practices.\n\nBy the end of this talk,\
+    \ you'll be so comfortable packaging projects you won't avoid writing `setup.py`\
+    \ files any more! Maybe you'll even start writing new code just so you can publish\
+    \ it on PyPI!"
+  subtype: presentation
+  speakers:
+  - 24
+- id: 23
+  title: More Than You Ever Wanted To Know About Python Functions
+  description: "What exactly _are_ functions? Let's talk about functions, methods,\
+    \ callables and closures - what they are, what you can give them, what they can\
+    \ give you, what you can do with them ... and what's inside.\n\nYou probably think\
+    \ you already know everything about functions, but you probably don't!\n\nBy the\
+    \ end of this talk, I guarantee* you'll know more about callables than when you\
+    \ walked in, along with techniques both practical and so extreme your colleagues\
+    \ will never let you merge them to master.\n\n(*This guarantee is legally non-binding\
+    \ and cannot be redeemed in any way.)"
+  subtype: presentation
+  speakers:
+  - 24
+- id: 24
+  title: 'Deep Diving into GANs: From Theory to Production'
+  description: "With our accrued experience with GANs, we would like to guide you\
+    \ through the required steps to go from theory to production with this revolutionary\
+    \ technology.\nStarting from the very basic of what a GAN is, passing trough Tensorflow\
+    \ implementation, using the most cutting-edge APIs available in the framework,\
+    \ and finally, production-ready serving at scale using Google Cloud ML Engine.\n\
+    \nNOTE: this would be an extended version of the workshop we held at EuroScipy\
+    \ 2018\n\nMaterials and Detailed description: https://github.com/zurutech/gans-from-theory-to-production"
+  subtype: workshop
+  speakers:
+  - 25
+- id: 25
+  title: The magic world of GANs
+  description: "Requires: entry-level Python and TensorFlow (Keras) knowledge\n\n\
+    Generative Adversarial Networks (GANs for brevity) are one of the hottest topics\
+    \ in the Deep Learning world. \n\nThis talk aims at laying down some theoretical\
+    \ foundations while overviewing the most significant milestones achieved by this\
+    \ family of models and showing how to code one using Python, TensorFlow, and Keras."
+  subtype: presentation
+  speakers:
+  - 25
+- id: 26
+  title: 'Keynote: Coding for Pleasure'
+  description: Software engineers are usually advised to invest some of their free
+    time on side projects, as a way to hone their skills and build a portfolio to
+    show off while job hunting. While Miguel Grinberg is a big fan of personal projects,
+    his reasons are completely different. He hopes to convince you to start a personal
+    project of your own after giving you a fresh perspective on this practice.
+  subtype: presentation
+  speakers:
+  - 27
+- id: 27
+  title: Python Beginners Workshop
+  description: Python Beginners Workshop
+  subtype: workshop
+  speakers:
+  - 28
+- id: 28
+  title: Asynchronous programming in Python, or the art of living backwards
+  description: Asynchronous programming can have many advantages, but may be awfully
+    complicated. It also requires a developer to think differently. In this talk I
+    will go through what async programming is, when you should or should not use it,
+    and what we can do to avoid getting lost. I will also explore various approaches
+    and tools available in Python.
+  subtype: presentation
+  speakers:
+  - 29
+- id: 29
+  title: Functional Programming for Data Science
+  description: Python is a versatile language and it supports a wide variety of programming
+    paradigms. At its heart it's object-oriented, but in this talk I want to discuss
+    how you can use Python to write clean, efficient, and modular functional code.
+    I'll begin by giving a little background on what functional programming is and
+    why you might use it. I'll talk through some of the simple primitives of functional
+    programming, and I'll give some useful examples of functional code for data analysis.
+    The aim is to give a practical and pragmatic introduction to these ideas, covering
+    some of the strengths and weaknesses of Python as a functional language.
+  subtype: presentation
+  speakers:
+  - 30
+- id: 30
+  title: Lightning talks
+  description: A selection of lightening talks. Please sign up to give a lightening
+    talk!
+  subtype: presentation
+  speakers:
+  - 31
+- id: 31
+  title: Quiz
+  description: The PyConIE Quiz!
+  subtype: presentation
+  speakers:
+  - 31
+- id: 32
+  title: 'Profiling: Find the Squeaky Wheel'
+  description: "Python sometimes gets a bad rap for being a slow language, but slow\
+    \ code can be written in any language. The first step towards accelerating code\
+    \ is identifying where it\u2019s slow: a 100x speed up to something that takes\
+    \ 1% of the time pales in comparison to a 1.1x speed up of something that takes\
+    \ 50% of the time. The Python Standard Library provides a collection of packages\
+    \ to get started--profile, cProfile, and pstats--and the community well goes deeper\
+    \ with interactive visualizations, deterministic vs. statistical, line vs. call\
+    \ stack profilers.\n\nIn this talk, we will demo how to instrument sample slow\
+    \ code using cProfile, then find the source of the problem using the interactive\
+    \ tool SnakeViz. Another demo will be shown using py-spy, a statistical profiler\
+    \ which can be attached to running processes, requiring no modification to existing\
+    \ code."
+  subtype: presentation
+  speakers:
+  - 32
+- id: 33
+  title: Prediction of risk factors for stroke using classification algorithms (logit,
+    SVM)
+  description: "Atrial fibrillation (AF) is the most common irregular heartbeat among\
+    \ the\nworld\u2019s population and is a major contributing factor to clot formation\
+    \ within\nthe heart. When such a blood clot enters the cardiovascular system,\
+    \ it first\nmust travel along the ascending aorta. The clot may travel along the\
+    \ aortic\narch and travel towards the brain through the left and right common\
+    \ carotid\narteries. If clot enters these vessels, it can become lodged within\
+    \ the\nsmaller vessels of the brain and cause a stroke.  We apply supervised machine\n\
+    learning classifiers (logit, SVM) for detecting stroke probability using simulation\
+    \ data.  \nVarious scenarios are implemented to examine the impact of variables\
+    \ such as\nshape of the aortic arch, varying clot dimensions and the entry point.\n\
+    Model selection tools (grid search, cross-validation) and classification probability\
+    \ are calculated for each\nclassifier. Application will be shown using Jupyter\
+    \ notebooks."
+  subtype: presentation
+  speakers:
+  - 33
+- id: 34
+  title: Opening Ceremony
+  description: Opening Ceremony
+  subtype: presentation
+  speakers:
+  - 35
+- id: 35
+  title: Full day web development workshop for beginners
+  description: Full day web development workshop for beginners
+  subtype: workshop
+  speakers:
+  - 35
+- id: 36
+  title: Closing Ceremony
+  description: Closing Ceremony
+  subtype: presentation
+  speakers:
+  - 35
+- id: 37
+  title: Django APIs, Versioning and You
+  description: "This talk will attempt to explain how to version an API within the\
+    \ Django framework. Say you need to change the data that your API returns to your\
+    \ users, but any major changes would result in breaking the API for users of any\
+    \ previous versions. This talk will explain how to avoid this problem, which as\
+    \ a developer who works on APIs with the Django framework every day is a constant\
+    \ problem that I would have to face. \n\nThis talk will cover:\n\n1.) Why do I\
+    \ even have to version my API in the first place? Surely I can just make changes?\n\
+    \n2.) Okay, now I understand why to version my API in Django. What about the how?\
+    \ (this will mainly focus on the Django REST framework's library of versioning,\
+    \ but other methods will be considered) \n\n3.) Live Demo of breaking changes\
+    \ (oh no!) and how we can apply our knowledge from the second part of the talk\
+    \ and avoid these."
+  subtype: presentation
+  speakers:
+  - 36
+- id: 38
+  title: Write your own Bitcoin clone in Asyncio
+  description: 'Richard Feynman wrote on a blackboard: "What I cannot create, I do
+    not understand". We can build a solid understanding of the Bitcoin protocol by
+    implementing a clone from its fundamental building blocks: asymmetric encryption,
+    a peer-to-peer network (using the asyncio module), and proof of work. This "talkshop"
+    explains how cryptocurrencies work in simple terms and with practical examples.
+    Just some basic knowledge of Python required. We will also learn about cypherpunk
+    culture, the value of money, and how decentralised systems work.'
+  subtype: workshop
+  speakers:
+  - 37
+- id: 39
+  title: Visualisation in Python - Quick and easy routes to plotting magic
+  description: "The ability to explore and grasp data structures through quick and\
+    \ intuitive visualisation is a key skill of any data scientist. Different tools\
+    \ in the Python ecosystem required varying levels of mental-gymnastics to manipulate\
+    \ and visualise information during a data exploration session. The array of Python\
+    \ libraries, each with their own idiosyncrasies, available can be daunting for\
+    \ newcomers and data scientists-in-training. \n\nIn this talk, we will examine\
+    \ the core data visualisation libraries compatible with the popular Pandas data\
+    \ wrangling library. We'll look at the base-level Matplotlib library first, and\
+    \ then show the benefits of the higher-level Pandas visualisation toolkit and\
+    \ the popular Seaborne library. By the end of the talk, you'll be bar plotting,\
+    \ scatter plotting, and line plotting (never pie charting) your way to data visualisation\
+    \ bliss."
+  subtype: presentation
+  speakers:
+  - 38
+- id: 40
+  title: What is new in Python 3.7?
+  description: Released in June before the conference, Python 3.7 is a feature-packed
+    release! This talk will cover all the new features of Python 3.7, including the
+    Data Classes and the Context Variables for the asynchronous programming with asyncio.
+  subtype: presentation
+  speakers:
+  - 39
+- id: 41
+  title: Leaving Certificate Computer Science and Python
+  description: "This talk is broken into 4 sections:\n\nSection 1: The structure of\
+    \ the Leaving Certificate Computer Science pilot scheme\nSection 2: The structure\
+    \ of the Leaving Certificate CS Specification \nSection 3: How Python can be applied\
+    \ to the Leaving Certificate CS specification\nSection 4 : The Computer Science\
+    \ Teachers' Association of Ireland and Python Ireland \n\nI am the founder of\
+    \ the Computer Science Teachers' Association of Ireland and have been in contact\
+    \ with Nicolas Laurence about links between the CSTAI and Python Ireland. Nicolas\
+    \ suggested that I should come to the conference and submit a talk about this\
+    \ topic."
+  subtype: presentation
+  speakers:
+  - 40
+- id: 42
+  title: Python on Windows is Okay, Actually
+  description: "Packages that won't install, encodings that don't work, installers\
+    \ that ask too many questions, and having to own a PC are all great reasons to\
+    \ just ignore Windows. Or they would be, if they were true.\nDespite community\
+    \ perception, more than half of Python usage still happens on Windows, including\
+    \ web development, system administration, and data science, just like on Linux\
+    \ and Mac. And for the most part, Python works the same regardless of what operating\
+    \ system you happen to be using. Still, many library developers will unnecessarily\
+    \ exclude half of their potential audience by not even attempting to be compatible.\n\
+    This session will walk through the things to be aware of when creating cross-platform\
+    \ libraries. From simple things like using pathlib rather than bytestrings, through\
+    \ to all the ways you can get builds and tests running on Windows for free, by\
+    \ the end of this session you will have a checklist of easy tasks for your project\
+    \ that will really enable the whole Python world to benefit from your work."
+  subtype: presentation
+  speakers:
+  - 41
+- id: 43
+  title: A Quick Offline Trip Through Kubernetes
+  description: "This workshop is aimed at Python programmers who aspire to learn about\
+    \ Kubernetes and take advantage of the efficiency and flexibility it offers. We\
+    \ will use a simple Flask application that allows users to create, edit and save\
+    \ Jupyter notebooks \u201Cin the cloud\u201D - you can think of it as a poor man\u2019\
+    s JupyterHub to teach the participants about Kubernetes. After this workshop,\
+    \ the participants will be able to:\n\n1) Describe containers and container orchestration\n\
+    2) Describe the architecture and components of Kubernetes\n3) Run a Kubernetes\
+    \ cluster on their notebook\n4) Deploy and manage services on the cluster\n5)\
+    \ Write declarative recipes for reproducing the setup universally"
+  subtype: workshop
+  speakers:
+  - 42
+- id: 44
+  title: "Domain-specific Languages in Python. The Why and\_How."
+  description: "Domain-specific languages can be incredibly useful in boosting your\
+    \ productivity within their area of focus (think RegExp, CSS or NumPy). And they\
+    \ often allow you to improve communication about the problem area with non-technical\
+    \ people.\n\nBut it's not a tool most Software Practitioners feel comfortable\
+    \ employing. This talk is an attempt to fix that \U0001F642. \n\nWe'll look at\
+    \ the situations when it can be beneficial to create a DSL. \n\nAnd explore various\
+    \ approaches to building internal DSLs with Python.\n---\nYou can find all the\
+    \ examples, references and slides here: https://github.com/Stvad/pyconie_dsl"
+  subtype: presentation
+  speakers:
+  - 43
+- id: 45
+  title: Registration + Breakfast
+  description: ''
+  subtype: other
+  speakers: []
+- id: 46
+  title: Break
+  description: ''
+  subtype: other
+  speakers: []
+- id: 47
+  title: Lunch
+  description: ''
+  subtype: other
+  speakers: []
+- id: 48
+  title: Break
+  description: ''
+  subtype: other
+  speakers: []
+- id: 49
+  title: Break
+  description: ''
+  subtype: other
+  speakers: []
+- id: 50
+  title: Registration + Breakfast
+  description: ''
+  subtype: other
+  speakers: []
+- id: 51
+  title: Lunch
+  description: ''
+  subtype: other
+  speakers: []
+- id: 52
+  title: Break
+  description: ''
+  subtype: other
+  speakers: []
+- id: 53
+  title: 
+  description:
+  speakers: []

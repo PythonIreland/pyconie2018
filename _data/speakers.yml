@@ -1,0 +1,399 @@
+- id: 1
+  name: Allen Thomas Varghese
+  image: https://s3.amazonaws.com/dntstatic//90ae30fb-c140-4d51-7ce6-444ccea7eb4b_120_120.png
+  subtitle: "IT Consultant\nRenaissanceRe"
+  description: Organizer of Data Science & Coding Meetups | Mentor | Speaker | Technology
+    Generalist
+  thumbnailUrl: allen-thomas-varghese.png
+- id: 2
+  name: Allyn Hunt
+  image: https://s3.amazonaws.com/dntstatic//92989a94-875c-4bb5-468c-2d956a134f2e_120_120.png
+  subtitle: ''
+  description: "I am an Electronic Engineer, with 12 years experience in Product Development.\
+    \ I started learning Python as my interest in all things Raspberry Pi and Arduino\
+    \ grew.\nI have since started a blog about my adventures with Python, the Raspberry\
+    \ Pi and my community development work using the API for the video game Destiny.\
+    \ I have released several web application using Python Flask.\nWhen I'm not writing\
+    \ code, I'm spending time with my family, I also have a keen interest in Martial\
+    \ Arts and road & hill running."
+  thumbnailUrl: allyn-hunt.png
+- id: 3
+  name: Ancil Crayton
+  image: ''
+  subtitle: "Doctoral Research Fellow\nGeary Institute for Public Policy, University\
+    \ College Dublin"
+  description: Ancil is a Doctoral Research Fellow in the Geary Institute for Public
+    Policy and third-year PhD Candidate in Economics at University College Dublin.
+    His research focuses on applied uses of machine learning and general data science
+    to improve public policy analysis with an emphasis on macroeconomic policy. Recent
+    papers and projects include using NLP for studying central bank communication,
+    using social media to measure uncertainty, and network analysis for studying cross-border
+    banking flows. In summer 2018, he was selected as a fellow for the prestigious
+    Data Science for Social Good Fellowship at the University of Chicago, where he
+    worked in a team to develop a machine learning system for the Department of Labor
+    in Chile to improve their inspection process. Outside of research, he enjoys working
+    on side projects and learning new skills in Python and playing classical clarinet.
+- id: 4
+  name: Andrew Bolster
+  image: https://s3.amazonaws.com/dntstatic//25a92539-b428-42f5-5ca8-47864948a873_120_120.png
+  subtitle: "Director / Data Scientist\nFarset Labs / Alert Logic"
+  description: "Technologist, founder of multiple technology-based groups and organisations,\
+    \ an award winning researcher, community leader, and an occasional public speaker.\n\
+    \nCurrently Data Scientist at AlertLogic, using advanced data mining and machine\
+    \ learning to analyse potential hacking and malware attacks on cloud infrastructure.\n\
+    \nRecently completed PhD Research at The University of Liverpool (formerly at\
+    \ Queen\u2019s University Belfast\u2019s ECIT Institute) investigating Trust and\
+    \ Reputation in Marine Communications for Autonomous Systems of Systems under\
+    \ the joint Anglo-French Defence Research Group, established at the 2010 Anglo-French\
+    \ Summit\n\nFounding Director of Farset Labs, Northern Ireland\u2019s First Hackerspace,\
+    \ located in Weavers Court Business Park, Belfast, developed while I was finishing\
+    \ off a Masters in Electronics and Software Engineering at QUB. Farset Labs now\
+    \ provides the technical and entrepreneurial community with a place to share resources,\
+    \ knowledge and experience in a relaxed atmosphere, laying the foundation for\
+    \ the next wave of Northern Irish industry-leading technologists and business\
+    \ leaders.\n\nRecipient of the 2012 Belfast Business Top 50 for work at Farset\
+    \ Labs, the QUB T G Christie Award for Most Promising Postgraduate, and The Liggard\
+    \ Prize for Best Communications Engineering Masters Project. Also an IET Excellence\
+    \ Grant recipient and a National Finalist in the IET Present Around the World\
+    \ competition, presenting on information theory of social networks in 2010\n\n\
+    A sucker for Doctor Who, Scottish and Japanese Whiskey, Craft Beer, any movies\
+    \ involving Christoph Waltz, Stanley Kubrick, Ridley Scott, or Quentin Tarantino,\
+    \ and heavily caffinated German softdrinks."
+  thumbnailUrl: andrew-bolster.png
+- id: 5
+  name: Ben Fagan
+  image: https://s3.amazonaws.com/dntstatic//8c652a0c-08a7-4225-4606-ab27813f1fe0_120_120.png
+  subtitle: "Data Scientist\nAIB"
+  description: ''
+  thumbnailUrl: ben-fagan.png
+- id: 6
+  name: Bojan Bozic
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 7
+  name: Brian Stempin
+  image: https://s3.amazonaws.com/dntstatic//4dff6bff-9a53-4a2b-6da9-29ba92f18980_120_120.png
+  subtitle: "Software Engineer\nTelnyx"
+  description: Originally from the Philadelphia area, Brian has over 10 years of software
+    engineering experience, specializing in big data and distributed systems in Python
+    and Java.  When not slinging code, Brian can be found flying or skydiving -- he
+    likes to spend a lot of time in the sky!
+  thumbnailUrl: brian-stempin.png
+- id: 8
+  name: Cheuk Ho
+  image: ''
+  subtitle: "Data Scientist\nInawisdom"
+  description: "After spending 5 years doing research in theoretical physics at Hong\
+    \ Kong University of Science and Technology, Cheuk has transferred her analytical\
+    \ and logical skills in natural science and built a career in data science. After\
+    \ being a Data Scientist in one of the biggest worldwide wholesaler in travel\
+    \ business, Cheuk is now working in Inawisdom, an AWS partnered consultancy which\
+    \ deliver machine learning model and data science solutions for clients.\n\nCheuk\
+    \ constantly contributes to the community by giving AI and deep learning workshops,\
+    \ organize sprints for open source projects, volunteering at Datakind for charities.\
+    \ At the same time contribute to open source projects including Pandas, Keras,\
+    \ Scikit-learn and Dateutil. Cheuk has also been a guest speaker at University\
+    \ of Oxford and Queen Mary University of London, and various conferences including\
+    \ PyData in Amsterdam and Berlin, PyCon in Israel, UK and Germany, EuroPython\
+    \ and PyLondinium. Believing in gender equality, Cheuk is currently a co-organizer\
+    \ of AI club for Gender Minorities to support Tech Diversity and Inclusion."
+- id: 9
+  name: Claire Conroy
+  image: https://s3.amazonaws.com/dntstatic//54be3e3c-50b9-4269-68dd-df2b46a2b9d3_120_120.png
+  subtitle: "Senior Recruitment Business Partner\nPontoon - Onsite @ Bank of America"
+  description: ''
+  thumbnailUrl: claire-conroy.png
+- id: 10
+  name: Donald Whyte
+  image: https://s3.amazonaws.com/dntstatic//a34395a1-5ca8-4c7e-6265-0148bbe20ba8_120_120.png
+  subtitle: "Software Engineer\nEngineers Gate L.P."
+  description: "Donald is a senior software engineer at Engineers Gate, a New York-based\
+    \ quantitive hedge fund. There, he builds large-scale data pipelines and has processed\
+    \ over two dozen datasets. An avid Python and Rust developer and data enthusiast,\
+    \ Donald has given many talks about these languages across the world.\n\nPreviously,\
+    \ he organised hackathons in several countries and worked at Bloomberg L.P. where\
+    \ he built core, high performance database infrastructure that's still used across\
+    \ the firm globally."
+  thumbnailUrl: donald-whyte.png
+- id: 11
+  name: Dr. Brett Becker
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 12
+  name: Dr. Suzanne Little
+  image: https://s3.amazonaws.com/dntstatic//808f387d-09b8-4355-7dfd-119442e482c0_120_120.png
+  subtitle: ''
+  description: ''
+  thumbnailUrl: dr-suzanne-little.png
+- id: 13
+  name: Ed Singleton
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 14
+  name: Eoin Brazil
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 15
+  name: Eyitemi Egbejule
+  image: https://s3.amazonaws.com/dntstatic//59391db7-c4b7-46b1-7e7b-76f2a973bb33_120_120.png
+  subtitle: "Cybersecurity Researcher\nNaijaSecForce"
+  description: "Eyitemi Egbejule is a  Cybersecurity Consultant/researcher and international\
+    \ speaker.\nA member of the NaijaSecForce security community and  Python Nigeria\
+    \ developers community.\nEyitemi does active research on malware, Advanced Persistent\
+    \ Threats and Reverse engineering.\nHe Tweets about security and tech as @eEyitemi.\
+    \ Builds security tools using Python.\nAlso, He is currently a Fellow of the Python\
+    \ Software Foundation, and an Independent Member of the Django Software Foundation,\
+    \ a foundation behind the largest and most popular Python framework till date.\
+    \ \nOn the side, Eyitemi is actively involved in Girl Tech Education by mentoring\
+    \ Girls in programming and Cybersecurity in West Africa. When he isn't working,\
+    \ He can be found playing musical instruments or running on beaches."
+  thumbnailUrl: eyitemi-egbejule.png
+- id: 16
+  name: Fergal Walsh
+  image: https://s3.amazonaws.com/dntstatic//488b3913-ba80-418c-4dfd-598337b6ca13_120_120.png
+  subtitle: "Backend Developer\nHipo"
+  description: Fergal is a backend developer at Hipo and lead engineer at Fieldguide.
+    With a background in large scale data analysis and a PhD in Geocomputation he
+    specialises in R&D projects. His current work is mostly in the area of Computer
+    Vision and Machine Learning. Python has been his primary language for personal,
+    academic and professional projects for nearly 10 years. He is also the author
+    of Pico, a framework for building HTTP APIs in Python.
+  thumbnailUrl: fergal-walsh.png
+- id: 17
+  name: Franco Galeano Manuel Ignacio
+  image: ''
+  subtitle: "Lead Developer\nFender Musical Instruments"
+  description: "Manuel Ignacio Franco Galeano, computer scientist from Colombia.\n\
+    He works for Fender musical instruments as lead engineer in Dublin, Ireland.\n\
+    He holds a MSC in computer science from University College Dublin UCD.\nHis areas\
+    \ of interest and research are music information retrieval,\ndata analytics, distributed\
+    \ systems, blockchain technologies among others."
+- id: 18
+  name: Jolene Dunne
+  image: https://s3.amazonaws.com/dntstatic//3b37606e-5c89-49cf-5cef-0682eb93ef4c_120_120.png
+  subtitle: "Senior Software Engineer\nFlexera"
+  description: Software engineer with experience in server-side development, SaaS,
+    microservice architectures and web APIs. Interested in building things that are
+    secure, scalable and maintainable.
+  thumbnailUrl: jolene-dunne.png
+- id: 19
+  name: Jose Manuel Ortega
+  image: ''
+  subtitle: Software engineer & Security Researcher
+  description: I am Software Engineer with focus on new technologies, open source,
+    security and testing. My career target from the beginning has been to specialize
+    in Python and security testing projects. In recent years he has developed interest
+    in security development, especially in pentesting with python. Currently he is
+    working as a security tester engineer and his functions in the project are analysis
+    and testing the security of applications both web and mobile environments. I have
+    collaborated with university and the official school of computer engineers. I
+    have also written some related books related with python security.These books
+    can be found in amazon.com/author/jmortegac. Conferences and talks related with
+    python,security and docker are available in my personal site http://jmortega.github.io/
+- id: 20
+  name: Keith Quille
+  image: https://s3.amazonaws.com/dntstatic//2ed560eb-de07-4bbf-589a-fb13f75ffafe_120_120.png
+  subtitle: "Lecturer\nIT Tallaght"
+  description: "Keith Quille is a Laois based lecturer in IT Tallaght, a PhD student\
+    \ at Maynooth University and was a secondary school teacher for several years.\
+    \ Keith was a full time teacher in St Conleth\u2019s Community College where he\
+    \ taught Science, Physics and Computer Science at Further Education and ran a\
+    \ coding club. Keith is now a fulltime lecture in computer science where he delivers\
+    \ CS1, CS2 and applied machine learning, as well as runs computing camps all around\
+    \ the county promoting computer science at second level. \n\nKeith\u2019s main\
+    \ area of interest, in both his research and teaching, is Computer Science Education\
+    \ and in particular, pedagogy of Computer Programming. Keith is actively involved\
+    \ in curriculum development and currently delivers continuing professional development\
+    \ (CPD) in the further education field. Keith has also been commissioned by the\
+    \ NCCA developing resources for the upcoming leaving certificate computer science\
+    \ subject."
+  thumbnailUrl: keith-quille.png
+- id: 21
+  name: Kevin O'Brien
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 22
+  name: Leonardo Giordani
+  image: https://s3.amazonaws.com/dntstatic//d2bc5bf7-3ea6-4125-4b22-0381dbba211c_120_120.png
+  subtitle: Software Engineer
+  description: "Born in 1977 with Star Wars, bash, Apple ][, BSD, finger, Zork, Galaxy\
+    \ Express 999, Little Pollon, Dire Straits, The Police, Rumours, The Silmarillion,\
+    \ Squad Leader.\nInterested in operating systems and computer languages, photography,\
+    \ fantasy and science fiction, video- and boardgames, guitar playing, climbing,\
+    \ horseback riding, Aikido, rollerskating, drawing, painting, bookbinding.\nI\
+    \ programmed in Z80 and x86 Assembly, GW-Basic, Logo, Borland Turbo Pascal, Prolog,\
+    \ C, C++, PHP, Lisp, Ada, Objective-C, bash, Python, Erlang, Clojure, Scala, JavaScript.\n\
+    I love mathematics and cryptography.\n\nI\u2019m mainly interested in open source\
+    \ software. I like both the theoretical and practical aspects of computer science.\n\
+    I am currently working at WeGotPOP, a London-based company that creates software\
+    \ for film casting agencies. We work with Python and Javascript, Docker, AWS,\
+    \ React.\n\nFrom 2013 I blog some technical thoughts at http://thedigitalcatonline.com"
+  thumbnailUrl: leonardo-giordani.png
+- id: 23
+  name: Lorenzo Trojan
+  image: ''
+  subtitle: "Machine Learning Lead\naxial3D"
+  description: "Lorenzo leads axial3D Machine Learning team, working on the development\
+    \ of advanced algorithms to analyse patients 3D medical scans, focusing on achieving\
+    \ the highest anatomical fidelity of the 3D printed models as well as help shape\
+    \ the company's product portfolio.  \n\nWith a PhD in Physics, Lorenzo gained\
+    \ experience in companies including Alert Logic, Mintel as well as within academia."
+- id: 24
+  name: Mark Smith
+  image: https://s3.amazonaws.com/dntstatic//82017674-3822-4c0e-58f2-f7b441119eff_120_120.png
+  subtitle: "Developer Advocate\nNexmo"
+  description: Mark, also known as Judy2k on all quality social networks, has been
+    programming in Python since 2000, and doesn't seem to be getting any better at
+    it. As a Developer Advocate for Nexmo, he travels around the World persuading
+    developers to do things that no sane person would recommend.
+  thumbnailUrl: mark-smith.png
+- id: 25
+  name: Michele De Simoni
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 26
+  name: Michelle Almeida
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 27
+  name: Miguel Grinberg
+  image: https://s3.amazonaws.com/dntstatic//6866d93f-8d29-44a2-43c6-2c275d29a3c3_120_120.png
+  subtitle: ''
+  description: ''
+  thumbnailUrl: miguel-grinberg.png
+- id: 28
+  name: "Mike M\xFCller"
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 29
+  name: Mikhail Medvedev
+  image: https://s3.amazonaws.com/dntstatic//7eb719e9-9115-4d2f-6df3-8928107ee383_120_120.png
+  subtitle: "Software Engineer\nTenable"
+  description: ''
+  thumbnailUrl: mikhail-medvedev.png
+- id: 30
+  name: "Neal \xD3 Riain"
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 31
+  name: Niall O'Connor
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 32
+  name: Nick Timkovich
+  image: https://s3.amazonaws.com/dntstatic//07e46959-b90c-4417-6254-4254e324c222_120_120.png
+  subtitle: "Software Engineer\nTelnyx"
+  description: "Started using Python back when 2.6 was new to generate frequency sweeps\
+    \ and talk to a device via UART, and since has used it for everything from processing\
+    \ X-ray crystal structures, to analysis of C. elegans motion, providing bare-metal\
+    \ clouds to researchers, and now delivering millions of messages to users on Telnyx's\
+    \ network.\n\nFrom Michigan, won't stop talking about their beer is better than\
+    \ all other beer. Fair-weather cyclist. Rated Diamond in Overwatch. Makes croissants\
+    \ from scratch."
+  thumbnailUrl: nick-timkovich.png
+- id: 33
+  name: Olga Lyashevska
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 34
+  name: Peter Morgan
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 35
+  name: Python Ireland
+  image: ''
+  subtitle: ''
+  description: ''
+- id: 36
+  name: Rebecca Martin
+  image: https://s3.amazonaws.com/dntstatic//1470ca82-8371-48ef-5566-7a3a7742eed5_120_120.png
+  subtitle: "Associate Software Engineer\nFlexera"
+  description: Junior software developer from Ballymena, I've used Python for about
+    a year now. I mostly work on Django APIs.
+  thumbnailUrl: rebecca-martin.png
+- id: 37
+  name: Rigel Di Scala
+  image: https://s3.amazonaws.com/dntstatic//358ccf90-3e97-436d-6175-72efedd80863_120_120.png
+  subtitle: "Digital Architect\nWipro Digital"
+  description: Rigel learned programming on a Commodore Vic-20 when he was 6 years
+    old. He's been in love with computers ever since. They reciprocate by helping
+    him earn a living and making him feel like he never worked a single day in his
+    life.
+  thumbnailUrl: rigel-di-scala.png
+- id: 38
+  name: Shane Lynn
+  image: https://s3.amazonaws.com/dntstatic//37a4f958-1ad4-4ee7-69ff-8a7b18950184_120_120.png
+  subtitle: "CEO\nEdgeTier"
+  description: "Shane Lynn Ph.D. is co-founder and CEO of EdgeTier, a Dublin-based\
+    \ company that provides analytics and AI products to customer contact centres,\
+    \ helping their clients meet consistently rising customer demands for faster response\
+    \ times and better service. EdgeTier's latest product is \"Arthur\", an artificial-intelligence\
+    \ powered agent assistant that works with customer care agents to help them process\
+    \ customer queries more effectively. Arthur uses the latest technology in artificial\
+    \ intelligence and natural language processing, developed in-house by the EdgeTier\
+    \ team. \n\nPreviously, Shane worked as a data science consultant with Deloitte\
+    \ Analytics in Dublin, providing analytics solutions to clients across multiple\
+    \ sectors in Ireland.\n\nShane holds a Ph.D. in Machine Learning from Maynooth\
+    \ University, where he applied supervised modelling techniques to semiconductor\
+    \ manufacturing processes. Shane has also completed research in autonomous vehicles\
+    \ in the University of Sydney Australia, and in rocket propulsion with Ad Astra\
+    \ Rocket Company in Costa Rica."
+  thumbnailUrl: shane-lynn.png
+- id: 39
+  name: Stephane Wirtel
+  image: ''
+  subtitle: "Founder\nMgx.io"
+  description: "St\xE9phane is a member of the Python Community since 2000, PSF #fellow,\
+    \ member of EuroPython Society et organizer of PythonFOSDEM. He pythonists from\
+    \ the morning to the evening ;-) He is also a small contributor of CPython."
+- id: 40
+  name: Stephen Murphy
+  image: https://s3.amazonaws.com/dntstatic//48db55af-7172-4fee-5960-d6e3b5ab0c4d_120_120.png
+  subtitle: "Founder\nThe Computer Science Teachers' Association of Ireland"
+  description: "A biology teacher by trade I completed my MSc Bioinformatics and Computational\
+    \ Biology in UCC in 2014. Inspired by the computing modules I studied in the course\
+    \ I elected to go on to complete a MEd (by research) in UCC entitled: \"An investigation\
+    \ into the feasibility of introducing computer science as a subject into second-level\
+    \ schools in Ireland\". I wrote and trialed a complete CS syllabus in schools\
+    \ over the 2 year period of my thesis. \n\nIn November, I founded the Computer\
+    \ Science Teachers' Association of Ireland (CSTAI). This is a 750-strong community\
+    \ of practice for CS and coding teachers from Ireland and abroad. The CSTAI offers\
+    \ a Cloud of shared computing resources for our members and we publish a monthly\
+    \ periodical called R\xE9 na R\xEDomheolas. \n\nI am currently a teacher of Computer\
+    \ Science, Coding, Biology and Science in Gaelchol\xE1iste Mhuire AG in Cork City."
+  thumbnailUrl: stephen-murphy.png
+- id: 41
+  name: Steve Dower
+  image: https://s3.amazonaws.com/dntstatic//bac1fb28-402a-47a0-5041-8e7c80637459_120_120.png
+  subtitle: "Developer\nMicrosoft"
+  description: Steve is an engineer who tells people about Python and then gives them
+    excuses to use it and great tools to use it with. He is a core contributor and
+    Windows expert for CPython, and works at Microsoft making sure Python developers
+    are well supported across Windows, Azure, and other Microsoft platforms.
+  thumbnailUrl: steve-dower.png
+- id: 42
+  name: Steve Holden
+  image: https://s3.amazonaws.com/dntstatic//35e0571b-5c53-4da9-5e6e-b448293304bf_120_120.png
+  subtitle: "CTO\nGlobal Stress Index"
+  description: Steve Holden is a grizzled veteran software technologist who enjoys
+    understanding useful new technologies. Twenty-year Python user, from MicroPython
+    to Kubernetes.
+  thumbnailUrl: steve-holden.png
+- id: 43
+  name: Vladyslav Sitalo
+  image: https://s3.amazonaws.com/dntstatic//f47325cc-73b8-4e97-4824-e7739caa8320_120_120.png
+  subtitle: "Software Engineer\nAmazon"
+  description: ''
+  thumbnailUrl: vladyslav-sitalo.png
